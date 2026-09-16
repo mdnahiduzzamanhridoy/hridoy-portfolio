@@ -1,1 +1,174 @@
+\documentclass[a4paper,10pt]{article}
 
+% ========================
+% Packages
+% ========================
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage[document]{ragged2e}
+\usepackage{fontawesome5}
+
+\pagestyle{empty}
+
+% ========================
+% Muted Cyan Color
+% ========================
+\definecolor{MutedCyan}{HTML}{0077B6}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=MutedCyan,
+    citecolor=MutedCyan
+}
+
+% ========================
+% Section Formatting
+% ========================
+\titleformat{\section}{
+    \scshape\large\raggedright
+}{}{0em}{}[\titlerule]
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+% ========================
+% Document
+% ========================
+\begin{document}
+
+% ========================
+% Header with icons
+% ========================
+\begin{center}
+    {\LARGE \textbf{MD Nahiduzzaman Hridoy}} \\[2pt]
+    \faPhone\ +86-14762179433 $\vert$
+    \faEnvelope\ \href{mailto:mdnahiduzzaman@jsnu.edu.cn}{mdnahiduzzaman@jsnu.edu.cn} $\vert$
+    \faLinkedin\ \href{https://www.linkedin.com/in/md-nahiduzzaman-hridoy-a0051a437/}{Linkedin} $\vert$ \\
+    \faGithub\ \href{https://github.com/mdnahiduzzamanhridoy/hridoy-portfolio}{MD Nahiduzzaman Hridoy} $\vert$ 
+    \faGlobe\ \href{https://bhodraenjoy.github.io/website/}{Personal Website}\\
+    \faMapMarker* \  China, Jiangsu, Xuzhou, 101, Shanghai Road, Tongshan District.
+\end{center}
+
+% ========================
+% Education
+% ========================
+\section*{Education}
+\textbf{Jiangsu Normal University} \hfill Xuzhou, China \\
+\textit{Bachelor of Engineering in Electrical Engineering and Automation} \hfill \textit{Sept 2023 - July 2027(Expected)} \\
+Award: International Student Scholarship \\
+Score: 87\% \\
+\textbf{Relevant Coursework: Electronic Circuits
+Analog Electronics
+Digital Electronics
+Electrical Machinery and Drive
+Sensor Technology
+Power Electronics
+Power Transmission and Distribution
+Principle of Automatic Control
+Digital System Design
+Introduction of Robotics
+Programmable Controllers (PLC)
+Microcontroller Principle and Interface Technology} .\\\ \\\
+
+\textbf{Madan Mohan College} \hfill Sylhet, Bangladesh \\
+\textit{Science} \hfill \textit{2016-2017} \\
+GPA: 4.00/5.00
+
+\textbf{Shandong Polytechnic College} \hfill Shandong,China\\
+\textit{Diploma in Electrical Automation} \hfill \textit{2019-2023} \\
+
+% ========================
+\section*{Research Papers}
+\textbf{Enjoy Bhodra}$^{1}$, Md Nahiduzzaman Hridoy$^{2}$, M A Shahriar$^{2}$, Iffat Salim Toaha$^{1}$ (2026). \\
+\textit{Resource-Constrained Perception: Deploying Quantized Deep Learning Models on Microcontrollers for Real-Time Robotic Vision}. \\
+\textbf{Journal of Multiscale Materials Informatics}, Vol. 3, No. 2 (2026). \\
+\href{https://doi.org/10.62411/jimat.v3i2.17734}{DOI: 10.62411/jimat.v3i2.17734}
+% ========================
+% Technical Skills
+% ========================
+\section*{Technical Skills}
+\textbf{Electrical Engineering:} Electrical Circuits, Analog Electronics, Digital Electronics, Electrical Machinery \& Drives, Power Electronics, Power Transmission \& Distribution \\
+\textbf{Industrial Automation \& Control::} Programmable Logic Controllers (PLC), PLC Practice, Automatic Control Principles, Industrial Control Systems, Electrical Control Systems\\
+\textbf{Instrumentation \& Sensors:} Industrial Sensors,Measurement \& Instrumentation, Sensor-Based Control \\
+\textbf{ Microcontrollers \& Embedded Systems:} Microcontroller Programming, Microcontroller Principles,Interface Technology, Digital System Design \\
+\textbf{Robotics \& Automation:} Robotics Fundamentals, Robotic Systems, Automation Technology, Electromechanical Systems\\
+\textbf{Tools \& Platforms:MATLAB,PowerWorld Simulator, NI Multisim, Proteus,Keil µVision,Ubuntu} \\
+
+% ========================
+% Experience
+% ========================
+\section*{Experience}
+\textbf{\href{https://1drv.ms/i/c/6d2a057e14f4af77/IQCwYYAcUs_MQbg4Yxij6kgOAbOYgl5OsdoKrxkWEtXVbm4?e=YfHrSN}{Jiangsu Huayuan Water-Saving Co., Ltd}}
+\hfill Xuzhou, China \\
+\textit{Electrical Automation Internship} \hfill July 2024 (5 days)
+\begin{itemize}[leftmargin=0.5cm]
+    \item Completed a 5-day observational internship in Electrical Engineering and Automation, gaining practical exposure to industrial electrical systems, automation equipment, and manufacturing processes.
+    \item Observed engineering teams working with PLCs, sensors, electrical control panels, motors, and automation systems while learning about equipment monitoring, preventive maintenance, and basic fault-diagnosis procedures.
+\end{itemize}
+
+% ========================
+% Projects
+% ========================
+\section*{Projects}
+\textbf{\faGithub\ \href{https://github.com/BhodraEnjoy/Medical-RAG-Chatbot/tree/main/Medical-RAG-Chatbot}{A NEW WIND FARM }}
+\hfill PowerWorld Simulator, AC Power Flow, N-1 Contingency Analysis, Transmission Planning, Wind Farm Interconnection, DFIG, 69/138 kV Transmission, Voltage Analysis, Thermal Loading, System Loss Analysis, Cost Optimization\\
+\begin{itemize}[leftmargin=0.5cm]
+
+    \item Performed AC power-flow and N-1 contingency analysis in PowerWorld Simulator to assess transmission system adequacy for a 200 MW Type-3 DFIG wind farm. 
+    \item Evaluated 69/138 kV transmission expansion alternatives and optimized the least-cost network design considering thermal/voltage constraints, system losses, and 5-year energy-loss costs. 
+\end{itemize}
+
+\textbf{\faGithub\ \href{https://github.com/BhodraEnjoy/github-trending-tracker}{Analog and Digital Circuit Design and Simulation}}
+\hfill NI Multisim, Analog Circuit Design, Digital Electronics, Circuit Simulation, Diodes, BJTs, MOSFETs, Op-Amps, Logic Gates, Circuit Analysis, Hardware Implementation \\
+\begin{itemize}[leftmargin=0.5cm]
+    \item Designed and simulated analog circuits in NI Multisim using diodes, BJTs, MOSFETs, op-amps, resistors, and capacitors; analyzed circuit performance and implemented designs in the laboratory.
+    \item Designed and simulated digital logic circuits in NI Multisim using basic logic gates and combinational logic circuits; verified functionality through simulation and laboratory implementation.
+\end{itemize}
+\textbf{\faGithub\ \href{https://github.com/BhodraEnjoy/Banking-Management-System}{8051 Temperature-Controlled DC Motor System }}
+\hfill AT89C51, 8051 Microcontroller, DS18B20, Proteus, Keil C, PWM, L298, H-Bridge, DC Motor Control, LCD, Embedded C, Temperature Sensing, Motor Speed Control, Embedded Systems\\
+\begin{itemize}[leftmargin=0.5cm]
+    \item Designed and simulated an 8051-based temperature control system using AT89C51, DS18B20, LM016L LCD, and L298 H-bridge motor driver in Proteus and Keil C.
+    \item Implemented temperature-based motor direction/speed control using PWM logic, with real-time temperature display on LCD.
+\end{itemize}
+%----------------------------------------------------------------------------------------
+%   AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\section*{Awards}
+\href{https://1drv.ms/i/c/6d2a057e14f4af77/IQCwYYAcUs_MQbg4Yxij6kgOAbOYgl5OsdoKrxkWEtXVbm4?e=UPqDH2}{\textbf{e-Commerce Association of Bangladesh(e-CAB)}} --- Bangladesh,2022
+
+%----------------------------------------------------------------------------------------
+%   PROFESSIONAL DEVELOPMENT SECTION
+%----------------------------------------------------------------------------------------
+\section*{Professional Development}
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=2pt]
+  \item \href{https://www.udemy.com/certificate/UC-bbf73b45-303a-4257-9119-9b72f0a87048/}{Computer Vision with CNN, TensorFlow, and PyTorch: Object Detection from Basics to Advanced} --- Udemy
+   \item \href{https://www.udemy.com/certificate/UC-645e9c1c-3eb9-499d-8da6-c32300cee1e1/}{Math Foundations for Data Science (Linear Algebra, Statistics, Probability, Differential Calculus)} --- Udemy
+  \item \href{https://www.udemy.com/course/arm-cortex-m-building-your-own-autonomous-robot-from-scratch/learn/lecture/6535476#overview}{Build an autonomous robot from a System's Approach, Code purely in Assembly and Bare Metal Embedded-C} --- Udemy
+  \item \href{https://www.udemy.com/certificate/UC-e3ad2c23-66e1-4025-86d7-c407f004ff60/}{Creating Smart P\&IDs using Plant 3D } --- Udemy
+  \item \href{https://euron.one/certificate/1ea2ff67-45ec-4ea2-9dab-21a97672ce8b}{SQL for Data Science \& Data Analytics} --- Euron
+  \item \href{https://www.udemy.com/certificate/UC-852498f6-d5f1-47b4-ab28-5bb58c922836/}{C Programming Masterclass: Build Your Programming Foundation} ---  Udemy
+   \item \href{https://www.udemy.com/certificate/UC-515be73c-17ee-4bd7-8c3d-672758196732/}{Time Management, Productivity, Decision Making Tools \& Aids} --- Udemy
+\end{itemize}
+
+% ========================
+% References
+% ========================
+\section*{References}
+\textbf{professor. Li Guilin} \hfill Jiangsu Normal University, Xuzhou, China \\
+\textit{Associate Professor,School of Mechanical and Electrical Engineering  } \\
+Email: \href{mailto:}{ zoukuansheng@jsnu.edu.cn} \\\
+
+\textbf{Prof. Zou Sheng} \hfill Jiangsu Normal University, Xuzhou, China \\
+\textit{Associate Professor, School of Mechanical and Electrical Engineering}\\
+Email: \href{mailto:zoukuansheng@jsnu.edu.cn}{zoukuansheng@jsnu.edu.cn} \\
+Phone: +86-18751515674\\
+Relationship: Research Project Mentor
+
+\end{document}
